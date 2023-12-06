@@ -1,0 +1,77 @@
+--> How Web API Works ?
+
+- Client makes HTTP requests to API
+- API will communicate to Web Application Database ( if needed )
+- Web application database provides required data to API
+- API returns Response  Data to Client
+
+# -- Example -- #
+
+- Register/Sign-up to API
+- API may provide API key for authentication
+- Whenever yu need to communicate with server make request to api with api key
+- If API key authentication succeed, API will provide required data
+
+--> What is Rest ?
+
+- Rest is nothing but architect guideline to develop Web API
+
+--> Django REST Framework
+
+- Django REST Framework is a powerful and flexible toolkit for building Web API
+- the web browser API is a huge usability win for developers
+- Authentication policies including packages for OAuth1 and OAuth2.
+- Serialization that supports both ORM and Non-ORM data sources
+- Customizable all the way down - just use regular function-based views if you dont need the more powerful features
+- Extensive documentation, and great community support
+
+--> Python json
+
+- python has built-in package named json
+- two methods :
+1. dumps(data) - used to convert python object into json string
+        - EG:    import json
+                 python_data = {'name':'hetvi','roll':10}
+                 json_data = json.dumps(python_data)
+                 print(python_data)
+
+                 o/p : {"name":"hetvi","roll":10}
+
+2. loads(data) - used to parse json string
+        - EG:   import json
+                parsed_data = {"name":"hetvi","roll":10}
+                json_data = json.loads(parsed_data)
+                print(parsed_data)
+
+                o/p : {'name':'hetvi','roll':10}
+
+- Serializer :  the main purpose of serializer is to convert the complex data such as queryset & model
+                instance to native python datatype which can easily render into json or any other
+                content type which understands by frontend
+
+                - serializers also responsible for deserialization which means it allows parsed data
+                  to be convert back into complex types, after validating the incoming data.
+
+- JSON Renderer : used to render serialized data into json which is understandable by Front End.
+- json responsed(data, encoder=DjangoJSONEncoder, safe=True, json_dumps_params = None, **kwargs)
+- An Http response subclass that helps to create JSON-encoded response. It inherits most behaviour from superclass
+
+    -   its default content-type header is set to application/json
+    -   first parameter ,data should be a dict instance. if the safe parameter is set to false it
+        can be any json-serializer object
+
+------------------------------------------------------------------------------------------------------------------------
+
+DESERIALIZATION :--
+
+--> String IO and Bytes IO are method that manipulate string and bytes data in memory. String IO is used for string data
+    Bytes IO is used for binary data
+
+        eg : stream = io.BytesIO(json_data) --- In deserialization, we use string io
+
+--> Python io module allows us to manage the file-related input and output operations.
+
+--> JSON Parser () : used to parse json data to native python data type
+
+    from rest_framework.parsers import JSONParser
+    parsed_data = JSONParser().parse(stream)

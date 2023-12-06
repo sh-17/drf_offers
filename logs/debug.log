@@ -1,0 +1,145 @@
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /offerapi/24/
+Offer created successfully
+Not Found: /offerapi/24/
+Offer updated successfully
+Offer listed successfully
+Offer listed successfully
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Offer listed successfully
+Offer listed successfully
+Offer listed successfully
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Offer listed successfully
+Offer listed successfully
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+An error occurred while updating data: No Offer matches the given query.
+Bad Request: /offerapi/20/
+An error occurred while updating data: No Offer matches the given query.
+Bad Request: /offerapi/20/
+Offer retrieved successfully
+Offer retrieved successfully
+Offer retrieved successfully
+Offer retrieved successfully
+Offer retrieved successfully
+Offer retrieved successfully
+Offer retrieved successfully
+Offer updated successfully
+Offer retrieved successfully
+Offer retrieved successfully
+Offer retrieved successfully
+Offer retrieved successfully
+Offer retrieved successfully
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Offer retrieved successfully
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /offerapi/
+Traceback (most recent call last):
+  File "E:\Sigma Solve\DRF\drf_project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Sigma Solve\DRF\drf_project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Sigma Solve\DRF\drf_project\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "E:\Sigma Solve\DRF\drf_project\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Sigma Solve\DRF\drf_project\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\Sigma Solve\DRF\drf_project\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\Sigma Solve\DRF\drf_project\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\Sigma Solve\DRF\drf_project\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: OfferModelViewSet.list() missing 1 required positional argument: 'args'
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Data listed successfully
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+An error occurred during listing: 'OfferModelViewSet' object has no attribute 'order_queryset'
+Not Found: /offerapi/id/
+An error occurred during listing: 'OfferModelViewSet' object has no attribute 'order_queryset'
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+An error occurred during listing: object of type 'NoneType' has no len()
+An error occurred during listing: object of type 'NoneType' has no len()
+An error occurred during listing: object of type 'NoneType' has no len()
+An error occurred during listing: object of type 'NoneType' has no len()
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+An error occurred during listing: 'OfferModelViewSet' object has no attribute 'order_queryset'
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Data listed successfully
+Data listed successfully
+Data listed successfully
+E:\Sigma Solve\DRF\drf_project\api\mypaginations.py changed, reloading.
+Watching for file changes with StatReloader
+Data listed successfully
+Data listed successfully
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Data listed successfully
+Data listed successfully
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Data listed successfully
+Data listed successfully
+Data listed successfully
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Data listed successfully
+Data listed successfully
+E:\Sigma Solve\DRF\drf_project\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Data listed successfully
+Data listed successfully
+Data listed successfully
+Data listed successfully
+Data listed successfully
+Data listed successfully
+Data listed successfully
+E:\Sigma Solve\DRF\drf_project\api\mypaginations.py changed, reloading.
+Watching for file changes with StatReloader
+Data listed successfully
+E:\Sigma Solve\DRF\drf_project\api\mypaginations.py changed, reloading.
+Watching for file changes with StatReloader
+Data listed successfully
+Data listed successfully
+E:\Sigma Solve\DRF\drf_project\api\mypaginations.py changed, reloading.
+Watching for file changes with StatReloader
+Data listed successfully
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Data listed successfully
