@@ -145,9 +145,6 @@ __pycache__/
 # Ignore virtual environment
 /venv/
 
-# Ignore logs
-/logs/
-
 # Ignore media files (uploaded user content)
 /media/
 
