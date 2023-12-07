@@ -2,6 +2,7 @@ import logging
 
 from django.http import JsonResponse
 from rest_framework.generics import GenericAPIView
+from rest_framework.pagination import LimitOffsetPagination
 from rest_framework.response import Response
 from .models import Offer
 from .serializers import OfferSerializer
@@ -29,8 +30,8 @@ class OfferModelViewSet(viewsets.ModelViewSet, GenericAPIView):
     search_fields = ['^title']
 
     # ordering
-    filter_backends = [OrderingFilter]
-    ordering_fields = ['status']
+    # filter_backends = [OrderingFilter]
+    # ordering_fields = ['status']
 
     # Ordering
     # from rest_framework.filters import OrderingFilter
@@ -38,7 +39,7 @@ class OfferModelViewSet(viewsets.ModelViewSet, GenericAPIView):
     # filter_backends = [OrderingFilter]
 
     # Pagination -- created pagination.py file and create class & set here
-    pagination_class = MyLimitOffsetPagination
+    pagination_class = LimitOffsetPagination
 
     def list(self, request, *args, **kwargs):
         try:
@@ -52,7 +53,7 @@ class OfferModelViewSet(viewsets.ModelViewSet, GenericAPIView):
                 queryset = queryset.filter(active=active_filter)
 
             #ordering
-            queryset = self.filter_queryset(queryset)
+            # queryset = self.filter_queryset(queryset)
 
             # pagination
             page = self.paginate_queryset(queryset)
