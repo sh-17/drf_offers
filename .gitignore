@@ -152,4 +152,4 @@ __pycache__/
 /media/
 
 # Ignore environment variable files
-/.env/
+.env
