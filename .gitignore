@@ -1,4 +1,3 @@
-# created by virtualenv automatically
 # Django #
 *.log
 *.pot
@@ -137,6 +136,20 @@ GitHub.sublime-settings
 !.vscode/extensions.json
 .history
 
-# .gitignore
+# Ignore Django migration files
 /migrations/
+*.pyc
+__pycache__/
+/db.sqlite3/
 
+# Ignore virtual environment
+/venv/
+
+# Ignore logs
+/logs/
+
+# Ignore media files (uploaded user content)
+/media/
+
+# Ignore environment variable files
+/.env/

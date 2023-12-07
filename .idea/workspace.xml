@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04db0b7d-06da-44cb-9f5c-73f6363e039a" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/api/media/download_1_NV4ONxC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/api/media/download_2_y7Ob69U.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/api/media/images_OPH5iln.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/api/media/navratri_8BXyXKu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/api/media/p-sweet-pleasures-diwali-hamper-190132-m_3ZtFyaE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/api/media/p-sweet-pleasures-diwali-hamper-190132-m_RkV33cE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/api/media/p-sweet-pleasures-diwali-hamper-190132-m_sCLxO4f.jpg" afterDir="false" />
+    <list default="true" id="04db0b7d-06da-44cb-9f5c-73f6363e039a" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +14,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="development" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="second" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2ZAPLSEOP7gLFHA3dNSen5nVxy0" />
@@ -29,7 +31,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -88,6 +90,9 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -98,6 +103,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
